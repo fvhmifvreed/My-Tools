@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "https://github.com/discourse/docker_manager.git",
+    "https://github.com/discourse/discourse-calendar.git",
+    "https://github.com/discourse/discourse-solved.git"
+  ],
+  "themes": [
+    {
+      "name": "Default Light Theme",
+      "repo": "https://github.com/discourse/discourse-theme-default.git"
+    }
+  ],
+  "settings": {
+    "allow_user_theme_switching": true,
+    "enable_markdown_typography": true,
+    "site_contact_username": "admin"
+  }
+}
