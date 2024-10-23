@@ -7,7 +7,7 @@ on:
   pull_request:
     branches:
       - main
-
+      
 jobs:
   run-docker-image:
     runs-on: ubuntu-latest
